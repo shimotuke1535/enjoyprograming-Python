@@ -5,10 +5,10 @@
 このファイルと同じディレクトリ内でpython sort.pyにて実行<br>
 このプログラム内操作はList LengthとUp or Downの入力です<br>
 オートロギング機能を搭載しています。./Data内に格納されたデータ群です。
-##オートロギングについて
-###sort_YYYYMMDD_HHMMSS.txt
+## オートロギングについて
+### sort_YYYYMMDD_HHMMSS.txt
 プログラム実行ごとに生成されます。<br>
 中身はコンソール表示の複写です。
-###Result.txt
+### Result.txt
 プログラム実行ごとに追記されます<br>
 中身は実行日時とリストレングス、実行時間、処理回数です。
