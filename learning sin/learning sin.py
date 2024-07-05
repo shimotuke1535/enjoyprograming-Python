@@ -16,8 +16,8 @@ plt.xlabel("x")
 plt.ylabel("f(x)")
 plt.show()
 
-from keras.models import Sequential
-from keras.layers import Dense
+from keras.models import Sequential # type: ignore
+from keras.layers import Dense # type: ignore
 
 batch_size = 2500
 n_in = 1
