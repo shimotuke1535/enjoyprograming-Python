@@ -3,11 +3,13 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 scale = 1
-optical = 250000
+optical = 5000000
 
 x = np.linspace(-np.pi*scale, np.pi*scale, optical).reshape(-1, 1)
-
-t = np.sin(x)-(np.cos(1.5*x-0.1))*np.sin(2.5*x+2)
+rand1 = np.random.rand()
+rand2 = np.random.rand()
+rand3 = np.random.rand()
+t = np.sin(rand1*x)-(np.cos(rand2*x-0.1))*np.sin(rand3*x+2)
 
 plt.plot(x, t)
 plt.xlabel("x")
@@ -17,9 +19,9 @@ plt.show()
 from keras.models import Sequential
 from keras.layers import Dense
 
-batch_size = 12
+batch_size = 2500
 n_in = 1
-n_mid = 20
+n_mid = 500
 n_out = 1
 Epoch_val = 100
 
