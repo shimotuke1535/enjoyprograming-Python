@@ -20,6 +20,7 @@ with open(Data_name, 'w') as f:
             z = 0
         else:
             z = 1
+    D = 5000 
     print("list length: ",D , file = f)
     print("list length: ",D)
 
@@ -45,6 +46,7 @@ with open(Data_name, 'w') as f:
         else:
             print("DON'T INPUT OTHER MODE")
             z = 0
+    mode = "Up"
     print("Sort type:", mode, file = f)
     print("Sort type:", mode)
 
