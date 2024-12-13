@@ -2,8 +2,8 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-scale = 1
-optical = 5000000
+scale = 10
+optical = 500000000000
 
 x = np.linspace(-np.pi*scale, np.pi*scale, optical).reshape(-1, 1)
 rand1 = np.random.rand()
@@ -19,11 +19,11 @@ plt.show()
 from keras.models import Sequential # type: ignore
 from keras.layers import Dense # type: ignore
 
-batch_size = 2500
+batch_size = 250000
 n_in = 1
-n_mid = 500
+n_mid = 5000
 n_out = 1
-Epoch_val = 100
+Epoch_val = 1000
 
 model = Sequential()
 model.add(Dense(n_mid, input_shape = (n_in,), activation = "sigmoid"))
