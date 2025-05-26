@@ -1,9 +1,9 @@
 {
     "Lua.workspace.library": [
-        "c:/Users/dosuk/works/enjoyprograming-Python/",
+        "c:/Users/dosuk/works/Python/",
         "c:/Users/dosuk/.vscode/extensions/nameouschangey.lifeboatapi-0.0.33/assets/lua/Common/",
         "c:/Users/dosuk/.vscode/extensions/nameouschangey.lifeboatapi-0.0.33/assets/lua/Microcontroller/",
-        "c:/Users/dosuk/works/enjoyprograming-Python/_build/libs/"
+        "c:/Users/dosuk/works/Python/_build/libs/"
     ],
     "lifeboatapi.stormworks.libs.gitLibraries": [
         {
